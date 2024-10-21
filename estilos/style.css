@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+main > .procurar {
+    background-color: rgb(218, 219, 241);
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
