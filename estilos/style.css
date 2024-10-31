@@ -9,10 +9,27 @@
 header{
     background-color: black;
     color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+header > a > img{
+    margin: 30px 30px 30px 150px;
+}
+
+nav > .ajuda{
+    color: white;
 }
 
 main > .procurar {
     background-color: rgb(218, 219, 241);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items:center ;
 }
 
 footer{
